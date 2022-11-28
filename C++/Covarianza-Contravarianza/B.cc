@@ -3,6 +3,6 @@
 B::B(){
 }
 
-B::foo(A a){
+A B::foo(A a){
     return a;
 }

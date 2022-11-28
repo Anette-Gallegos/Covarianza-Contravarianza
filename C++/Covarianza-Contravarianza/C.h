@@ -1,16 +1,7 @@
-class C
+#include "B.h"
+class C : public B
 {
-private:
-    /* data */
 public:
-    C(/* args */);
-    ~C();
+    C();
+    A foo(A a);
 };
-
-C::C(/* args */)
-{
-}
-
-C::~C()
-{
-}
