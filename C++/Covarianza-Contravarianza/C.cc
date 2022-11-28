@@ -3,6 +3,6 @@
 C::C(){
 }
 
-A C::foo(A a){
+C C::foo(C a){
     return a;
 }
